@@ -19,13 +19,13 @@ import static springfox.documentation.builders.PathSelectors.regex;
 @EnableSwagger2
 public class Swagger {
 
-    @Value("${swagger.swaggerTittle}")
+    @Value("${swagger.tittle}")
     public String swaggerTittle;
-    @Value("${swagger.swaggerDescription}")
+    @Value("${swagger.description}")
     public String swaggerDescription;
-    @Value("${swagger.swaggerLicence}")
+    @Value("${swagger.licence}")
     public String swaggerLicence;
-    @Value("${swagger.swaggerVersion}")
+    @Value("${swagger.version}")
     public String swaggerVersion;
 
 
