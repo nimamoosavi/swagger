@@ -8,18 +8,18 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.webold</groupId>
+    <groupId>app.ladderproject</groupId>
     <artifactId>swagger</artifactId>
     <version>1.0.1-Released</version>
     <name>swagger</name>
-    <description>swagger project for config swagger to webold project</description>
+    <description>swagger project for config swagger to ladder project</description>
     <properties>
         <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.webold</groupId>
-            <artifactId>framework</artifactId>
+            <groupId>app.ladderproject</groupId>
+            <artifactId>core</artifactId>
             <version>1.0.1-Released</version>
         </dependency>
         <dependency>
@@ -113,22 +113,4 @@
             </plugin>
         </plugins>
     </build>
-
-        <distributionManagement>
-            <snapshotRepository>
-                <id>nexus-snapshots</id>
-                <url>http://devops01.icico.net.ir/nexus/repository/maven-snapshots/</url>
-            </snapshotRepository>
-            <repository>
-                <id>nexus-releases</id>
-                <url>http://devops01.icico.net.ir/nexus/repository/maven-releases/</url>
-            </repository>
-        </distributionManagement>
-        <repositories>
-            <repository>
-                <id>nexus-public</id>
-                <url>http://devops01.icico.net.ir/nexus/repository/maven-public/</url>
-            </repository>
-    </repositories>
-
 </project>

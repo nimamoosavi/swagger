@@ -1,4 +1,4 @@
-package com.webold.swagger.config;
+package app.ladderproject.swagger.config;
 
 import com.google.common.base.Predicate;
 import org.springframework.beans.factory.annotation.Value;
